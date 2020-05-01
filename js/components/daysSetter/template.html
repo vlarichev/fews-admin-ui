@@ -1,0 +1,20 @@
+<!-- input Feld um Tage zu aktualisieren -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" title="Ladezeitraum ändern">   
+            <div class="col-xs-3 col-xs-offset-3">
+                <div class="input-group  input-group-sm number-spinner">
+                    <span class="input-group-btn">
+                        <button class="btn btn-sm btn-light" data-bind="click:decrease" data-dir="dwn"><span class="fa fa-minus"></span></button>
+                    </span>
+                    <input type="text" id="chartDaySetter" data-bind="attr:{value:days}" class="form-control text-center">
+                    <span class="input-group-btn">
+                        <button class="btn btn-sm btn-light" data-bind="click:increase" data-dir="up"><span class="fa fa-plus"></span></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-md-4">days: <span data-bind="text:days"></span></div> -->
+    </div>
+</div>

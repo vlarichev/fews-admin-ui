@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-xl-3 col-sm-6 mb-3">
+      <div  class="card pointer text-white bg-success o-hidden h-100" id="card_fertig" title="Taskruns mit Status 'Completed fully successfull' und 'Approved'">
+        <div class="card-body">
+          <div class="card-body-icon">
+            <i class="fa fa-fw fa-check"></i>
+          </div>
+          <div class="mr-5 text-center"><span class="display-4" id="fews_fertig">..</span></div>
+        </div>
+        <span class="card-footer text-white clearfix  z-1 text-center" href="#">
+          <span class="text-uppercase">Abgeschlossen</span>
+          <!-- <span >davon <span id="fews_approved">..</span> bestätigt</span> -->
+        </span>                  
+      </div>
+    </div>
+    <div class="col-xl-3 col-sm-6 mb-3">
+      <div class="card pointer text-white bg-primary o-hidden h-100"  id="card_laufend" title="Taskruns mit Status 'Approved partly successful' und 'Completed partly successful'">
+        <div class="card-body">
+          <div class="card-body-icon">
+            <i class="fa fa-fw fa-clock-o"></i>
+          </div>
+          <div class="mr-5 text-center"><span class="display-4 " id="fews_laufend">..</span>  </div>
+        </div>
+        <span class="card-footer text-white clearfix  z-1 text-center" href="#">
+          <span class="text-uppercase">Laufend/Ausstehend</span>
+        </span>    
+      </div>
+    </div>
+    <div class="col-xl-3 col-sm-6 mb-3">
+      <div class="card pointer text-white bg-warning o-hidden h-100"  id="card_warnung" title="Taskruns mit Status 'Running' und 'Pending'">
+        <div class="card-body">
+          <div class="card-body-icon">
+            <i class="fa fa-fw fa-exclamation-triangle"></i>
+          </div>
+          <div class="mr-5 text-center"><span class="display-4 " id="fews_warnungen">..</span> </div>
+        </div>
+        <span class="card-footer text-white clearfix  z-1 text-center" href="#">
+          <span class="text-uppercase">Warnungen</span>
+        </span>    
+      </div>
+    </div>
+    <div class="col-xl-3 col-sm-6 mb-3">
+      <div class="card pointer text-white bg-danger o-hidden h-100"  id="card_fehler" title="Taskruns mit Status 'Invalid','Terminated' und 'Failed'">
+        <div class="card-body">
+          <div class="card-body-icon">
+            <i class="fa fa-fw fa-times-circle-o"></i>
+          </div>
+          <div class="mr-5 text-center"><span class="display-4" id="fews_fehler">..</span> </div>
+        </div>
+        <span class="card-footer text-white clearfix  z-1 text-center" href="#">
+          <span class="text-uppercase">Fehler</span>
+        </span>    
+      </div>
+    </div>
+  </div>
+<!--   
+  <div class="">  loaded days: <span data-bind="text:days"></span></div>
+  <div class="">  refresh rate: <span data-bind="text:refreshRate"></span></div> -->

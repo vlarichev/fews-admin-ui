@@ -1,0 +1,34 @@
+{
+	"projectName": "VERBUND",
+	"TomcatPIWebServiceRestBezeichnung":"FewsPiServiceRest/fewspiservice/v1/taskruns?documentVersion=1.23&onlyCurrent=false&onlyForecasts=false",
+	"restCallTable":"/webfews/BaseController/table/",
+	"restCallChartJS":"/webfews/BaseController/timeline/",
+	"widgetURL":"/webfews/BaseController/widget/",
+	"refreshRate": 10000,
+	"defaultChartDays":1,
+	"maxDays":30,
+	"dev" : {
+		"hydrotecServerOnline": true,
+		"localCache":"taskrunsresponse.xml",
+		"currentDomain"	:"http://localhost:8090",
+		"dabugadress" 	: "http://localhost:8090/app/",
+		"restDays" 		: "http://localhost:8090/webfews/BaseController/timeline/15"
+	},
+	"language_settings": {
+		"emptyTable": "Keine Verbindung...", 
+		"info": "Zeige _START_ bis _END_ von _TOTAL_ Workflows",
+		"infoEmpty": "keine Treffer",
+		"infoFiltered": "(<b>Gefiltert</b>, insgesamt _MAX_ Workflows geladen)",
+		"lengthMenu": "Ergebnisse <span class='d-none d-sm-inline'>anzeigen</span> _MENU_ ",
+		"loadingRecords": "Lade...",
+		"processing": "Processing...",
+		"search": "Suchen <span class='d-none d-sm-inline'>nach</span>",
+		"zeroRecords": "Keine Treffer",
+		"paginate": {
+			"first": "Letzte Seite",
+			"last": "Erste Seite",
+			"next": "Weiter",
+			"previous": "Zurück"
+		}
+	}
+}
